@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include "hw1.h"
+#include<stdio.h>
 int main()
 {
 	int length=0,i=0;
@@ -7,11 +8,7 @@ int main()
 
 	printf("\nEnter the string:");
 	scanf("%[^\n]s",arr);
-	while(arr[i]!='\0')
-	{
-		length++;
-		i++;
-	}
+	length=strlen(arr);
 	printf("\nThe original string is:");
 	for(i=0;i <=length;i++)
 	{
