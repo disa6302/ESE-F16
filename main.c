@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include "hw1.h"
-#include<stdio.h>
+#include<string.h>
 int main()
 {
 	int length=0,i=0;
